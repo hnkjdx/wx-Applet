@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/movies/movies",
+    "pages/movies/movies-detail/movie-detail",
+    "pages/welcome/welcome",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/VIP/vip-members/vip-members",
+    "pages/prominent/prominent",
+    "pages/My/Themap/Themap",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "首页",
+        "iconPath": "images/tab/The.png",
+        "selectedIconPath": "images/tab/The(1).png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "热播",
+        "iconPath": "images/tab/bepai.png",
+        "selectedIconPath": "images/tab/bepai(1).png"
+      },
+      {
+        "pagePath": "pages/VIP/vip-members/vip-members",
+        "text": "VIP会员",
+        "iconPath": "images/tab/VIP.png",
+        "selectedIconPath": "images/tab/VIP(1).png"
+      },
+      {
+        "pagePath": "pages/prominent/prominent",
+        "text": "风云榜",
+        "iconPath": "images/tab/prominent.png",
+        "selectedIconPath": "images/tab/prominent(1).png"
+      },
+      {
+        "pagePath": "pages/My/Themap/Themap",
+        "text": "我的",
+        "iconPath": "images/tab/my.png",
+        "selectedIconPath": "images/tab/my(1).png"
+      }
+    ]
+  }
+}

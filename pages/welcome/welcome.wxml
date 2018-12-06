@@ -1,0 +1,7 @@
+<view class='container'>
+   <image class='user-avatar'src='/images/bas.png'></image>
+   <text class='user-name'>YY</text>
+<view class='moto-container' bindtap='onTap'>
+   <text class='moto' bindtap=''>开始小程序开发</text>
+</view>
+</view>
